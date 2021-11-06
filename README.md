@@ -1,2 +1,3 @@
 # MainWebsite
 A website made for personal use...
+This website is my first stepping stone on what I have to bring to the table when it comes to Website development 

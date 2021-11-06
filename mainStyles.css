@@ -183,10 +183,44 @@ button:hover{
     margin:1rem;
     
 }
-.skills img{
-    width: 6rem;
-    
-    
-    
 
+#gulp{
+    height: 9rem;
+    width: 5rem;
+    padding-top: 3rem;
+    
+}
+#javaScript{
+    width: 8rem;
+}
+.skills img{
+    margin: 0rem;
+    width: 6.5rem;
+    height: 6rem;
+    padding: 5rem;
+    flex-direction: column;
+    transition: transform .25s;
+    
+}
+
+.skills img:hover{
+    transform: translate(.25em,-.50em);
+
+}
+@media(max-width: 788px) {
+    .skills img{
+        padding: 4rem;
+    }
+    
+}
+@media(max-width: 457px) {
+    .skills img{
+        padding: 2rem;
+    }
+    
+}
+.skills{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
 }
