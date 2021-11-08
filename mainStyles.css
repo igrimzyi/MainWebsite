@@ -10,7 +10,9 @@ body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
 }
-
+h2:hover, span:hover{
+    cursor: default;
+}
 li, a, button{
     text-decoration: none;
     color: #ffa260;
@@ -55,6 +57,9 @@ button:hover{
     transform: translateY(-.25em);
     cursor: pointer;
 }
+
+
+
 .contact{
     padding-left: 3rem;
 }
@@ -175,12 +180,13 @@ button:hover{
     margin-left: 5rem;
     border-radius: 2%;
 }
-#skillh2{
+#skillH2{
     text-align: center;
     text-decoration: underline;
     justify-content: center;
     color: #ffa260;
     margin:1rem;
+    
     
 }
 
@@ -223,4 +229,24 @@ button:hover{
     display: flex;
     flex-direction: row; 
     justify-content: space-evenly;
+}
+#linux{
+    height: 7rem;
+}
+@media(max-width:1640px){
+    .skills{
+        padding: 1rem;
+        align-items: center;
+        flex-direction: row;
+        justify-content:center ;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:537px){
+    h2{
+        display: none;
+    }
+    .skills{
+        display: none;
+    }
 }
