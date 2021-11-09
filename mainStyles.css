@@ -63,7 +63,7 @@ button:hover{
 .contact{
     padding-left: 3rem;
 }
-.about , .backgroundME, .Apply{
+.about , .backgroundME, .Resume{
     transition: color .25s, border-color .25s, transform .25s;
 }
 .about:hover{
@@ -82,7 +82,7 @@ button:hover{
     cursor: pointer;
     
 }
-.Apply:hover{
+.Resume:hover{
     border-color: #f1ff5c;
     color: #f1ff5c;
     
@@ -98,11 +98,22 @@ button:hover{
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+
+    
+}
+
+#AboutMeBody{
+    display: inline-block;
+    width: 50rem;
+    padding-left: 10rem;
+
 }
 #aboutMeH2{
     color: #ffa260;
     font-size: 2rem;
     display: flex;
+    justify-content: center;
+   text-decoration: underline;
     
 }
 #aboutMeText{
@@ -111,12 +122,14 @@ button:hover{
     display: inline-block;
     font-size: 1rem;
     align-items: center;
+    font-size: 1.40rem;
+    color: #808080;
 }
 #aboutMeImg{
     box-sizing: border-box;
     max-width: 36rem;
     display: flex;
-    padding-left: 5rem;
+    padding-left: 9rem;
 }
 
 @media (max-width:812px){
@@ -222,6 +235,10 @@ button:hover{
 }
 #javaScript{
     width: 8rem;
+}
+#postgre{
+    height: 9.5rem;
+    width: 8.5rem;
 }
 .skills img{
     margin: 0rem;
