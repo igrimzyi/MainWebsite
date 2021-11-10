@@ -228,7 +228,7 @@ button:hover{
 }
 
 #gulp{
-    height: 9rem;
+    height: 10rem;
     width: 5rem;
     padding-top: 3rem;
     
@@ -236,9 +236,11 @@ button:hover{
 #javaScript{
     width: 8rem;
 }
-#postgre{
-    height: 9.5rem;
-    width: 8.5rem;
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .skills img{
     margin: 0rem;
@@ -248,6 +250,23 @@ button:hover{
     flex-direction: column;
     transition: transform .25s;
     
+    
+}
+#postgreSql{
+    height: 8rem;
+    width: 8.5rem;
+   padding-top: 3.5rem;
+}
+#gitBash{
+    height: 8rem;
+    width: 12rem;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+}
+#node{
+    height: 7rem;
+    width: 13rem;
+
 }
 
 .skills img:hover{
@@ -265,11 +284,6 @@ button:hover{
         padding: 2rem;
     }
     
-}
-.skills{
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-evenly;
 }
 #linux{
     height: 7rem;
