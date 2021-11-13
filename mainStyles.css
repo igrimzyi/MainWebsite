@@ -116,7 +116,7 @@ button:hover{
    text-decoration: underline;
     
 }
-#aboutMeText{
+.aboutMeDiv p{
     width: 50rem;
     text-align: center;
     display: inline-block;
@@ -139,12 +139,14 @@ button:hover{
     nav{
         border-bottom: none;
     }
+    #Title{
+        border-bottom:1px solid #ffa260;
+    }
     span{
         display: flex;
         padding:3rem;
         margin:1rem;
         margin-left: 5rem;
-        border-bottom:1px solid #ffa260;
         justify-content: center;
         text-align: center;
         position: relative;
@@ -241,6 +243,8 @@ button:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #333132;
+   
 }
 .skills img{
     margin: 0rem;
@@ -249,6 +253,7 @@ button:hover{
     padding: 5rem;
     flex-direction: column;
     transition: transform .25s;
+    
     
     
 }
@@ -277,6 +282,16 @@ button:hover{
     .skills img{
         padding: 4rem;
     }
+    #aboutMeText{
+        max-width: 20rem;
+        
+    }
+    #AboutMeBody{
+        margin: 1rem;
+    }
+    .aboutMeDiv{
+        justify-content: center;
+    }
     
 }
 @media(max-width: 457px) {
@@ -304,4 +319,19 @@ button:hover{
     .skills{
         display: none;
     }
+}
+@media(max-width: 1535px){
+    #aboutMeImg{
+        display: none;
+    }
+    #AboutMeBody{
+        padding: 0rem;
+       
+    }
+    .aboutMeDiv{
+        justify-content: center;
+    }
+}
+footer{
+    background-color: #221f1f;
 }
