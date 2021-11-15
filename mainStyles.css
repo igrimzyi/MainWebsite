@@ -414,4 +414,9 @@ footer{
     display: inline-block;
     justify-content: space-between;
     padding: 2rem 1rem 2rem 1rem;
+    width: 30rem;
+}
+.slidesText p , h1 {
+    text-align: center;
+    color: #ffa260;
 }
