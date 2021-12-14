@@ -1,0 +1,23 @@
+{
+  "name": "mainwebsite",
+  "version": "1.0.0",
+  "description": "A website made for personal use...\r This website is my first stepping stone on what I have to bring to the table when it comes to Website development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igrimzyi/MainWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igrimzyi/MainWebsite/issues"
+  },
+  "homepage": "https://github.com/igrimzyi/MainWebsite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
