@@ -221,9 +221,10 @@ button:hover{
     border-radius: 2%;
 }
 #skillH2{
+    font-size: 4rem;
     padding-top: 3rem;
     text-align: center;
-    text-decoration: underline;
+    font-weight: 600;
     justify-content: center;
     color: #ffa260;
     margin:1rem;
